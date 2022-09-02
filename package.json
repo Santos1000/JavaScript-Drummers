@@ -1,7 +1,7 @@
 {
   "name": "javascript-drummers",
   "version": "1.0.0",
-  "description": "",
+  "description": "aplication-game",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Santos1000/JavaScript-Drummers.git"
   },
-  "author": "",
+  "author": "barbara",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Santos1000/JavaScript-Drummers/issues"

@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./background-unsplash.jpg') bottom center, no-repeat;
+  background-size: cover;
+}
+
+body,html {
+  margin: 40px;
+  padding: 24px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.keys {
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#space {
+  padding: 1rem 6.5rem;
+}
+
+#main {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .09s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+p {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}

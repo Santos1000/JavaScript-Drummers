@@ -2,7 +2,7 @@
   "name": "javascript-drummers",
   "version": "1.0.0",
   "description": "aplication-game",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"

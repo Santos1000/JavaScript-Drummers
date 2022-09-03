@@ -1,11 +1,11 @@
 html {
   font-size: 10px;
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./background-unsplash.jpg') bottom center, no-repeat;
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./imagens/background-unsplash.jpg') bottom center, no-repeat;
   background-size: cover;
 }
 
 body,html {
-  margin: 40px;
+  margin: 24px;
   padding: 24px;
   align-items: center;
   font-family: sans-serif;
@@ -47,14 +47,38 @@ body,html {
   box-shadow: 0 0 1rem #ffc600;
 }
 
-p {
-  display: block;
-  font-size: 1.8rem;
-}
-
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  background-color: rgba(147, 145, 150, 0.212);
+  padding: 20px 10px 10px 10px;
+  border-radius: 4px;
+}
+
+footer p {
+  margin: 8px;
+  margin-top: 28px;
+  padding: 4px;
+  color: rgb(192, 192, 190);
+  font-size: large;
+  font-family: sans-serif;
+  }
+
+.logo {
+  width: 256px;
+  height: 200px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }
